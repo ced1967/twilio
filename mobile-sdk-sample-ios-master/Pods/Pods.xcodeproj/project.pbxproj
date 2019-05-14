@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9B15D4F07EEF04BA7ADF65D3E90BCC14 /* TwilioAuth-iOS8.1 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F537311FA48200F83203406DEAADC97B /* Build configuration list for PBXAggregateTarget "TwilioAuth-iOS8.1" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "TwilioAuth-iOS8.1";
+		};
+		D49F54D9B1478A88466484F4473F6BD3 /* TwilioAuth-iOS10.0 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 98B54428A148D28B7D9EB84D61C8AEE8 /* Build configuration list for PBXAggregateTarget "TwilioAuth-iOS10.0" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "TwilioAuth-iOS10.0";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		974F0445E8F0397A35099E565FD52E72 /* Pods-TwilioAuthSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5BB42C4A12A0358DCF2D600E51B15 /* Pods-TwilioAuthSample-dummy.m */; };
+		A2C64FE2978C47722FA5DC62AF016542 /* Pods-PushNotificationService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F42962BC792BAE5ED03EC53C1C7E2F7A /* Pods-PushNotificationService-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8415B996838126548DAEA5EE1FB72B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49F54D9B1478A88466484F4473F6BD3;
+			remoteInfo = "TwilioAuth-iOS10.0";
+		};
+		F07E6D4C6E7D24BDBF3BCA053C8EF214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B15D4F07EEF04BA7ADF65D3E90BCC14;
+			remoteInfo = "TwilioAuth-iOS8.1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10A7034AD56E5F40F8E9DE41D7287E79 /* TwilioAuth-iOS8.1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "TwilioAuth-iOS8.1.xcconfig"; path = "../TwilioAuth-iOS8.1/TwilioAuth-iOS8.1.xcconfig"; sourceTree = "<group>"; };
+		1B39AB3611C32BBA5F23FB7DE594653A /* Pods-PushNotificationService-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushNotificationService-acknowledgements.plist"; sourceTree = "<group>"; };
+		24016544C035D1656D1765849B95B1B9 /* Pods-PushNotificationService-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushNotificationService-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EF5BB42C4A12A0358DCF2D600E51B15 /* Pods-TwilioAuthSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwilioAuthSample-dummy.m"; sourceTree = "<group>"; };
+		52BB9412EF5A4C76DC21D9E95A136FE3 /* TwilioAuth-iOS10.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TwilioAuth-iOS10.0.xcconfig"; sourceTree = "<group>"; };
+		6223F2D2D2FA634F0387FB3A093D3AC5 /* Pods-TwilioAuthSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwilioAuthSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BA1A5BB25716BA01D0B705BDEB113C0 /* Pods-PushNotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushNotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		83D24A7DB4EB1FE124C7D99C9F368525 /* Pods-PushNotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushNotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		93D644A0E6C35547C382602D8B3A2D65 /* Pods-TwilioAuthSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwilioAuthSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		96080663FF665AEB0BD06CDE0992AF41 /* libPods-PushNotificationService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PushNotificationService.a"; path = "libPods-PushNotificationService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD5AF30BF9B94D25B8CFB05F534F5A98 /* libPods-TwilioAuthSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TwilioAuthSample.a"; path = "libPods-TwilioAuthSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8218C1DC1B98679977F4A1D5E706586 /* Pods-TwilioAuthSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwilioAuthSample-frameworks.sh"; sourceTree = "<group>"; };
+		BBFA93C18E86B276BDCCB73D7E53554A /* Pods-TwilioAuthSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwilioAuthSample.debug.xcconfig"; sourceTree = "<group>"; };
+		DA99937E612E2946AC3A527D3E61DDD7 /* TwilioAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioAuth.framework; sourceTree = "<group>"; };
+		F1D88D262BAF1F7593370B11369652AA /* Pods-TwilioAuthSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwilioAuthSample.release.xcconfig"; sourceTree = "<group>"; };
+		F42962BC792BAE5ED03EC53C1C7E2F7A /* Pods-PushNotificationService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushNotificationService-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2339458C4F2874A6AC1E21C8C8E78A05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A33DCA35CFA67A3156AD8CBD0C79AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E501D97A8F7343532871BCBE0F0BB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C969491FFEABEDB9BA9318565430B6B /* TwilioAuth */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2BF497BF4C15254E9E868133D15F8806 /* Pods-TwilioAuthSample */ = {
+			isa = PBXGroup;
+			children = (
+				6223F2D2D2FA634F0387FB3A093D3AC5 /* Pods-TwilioAuthSample-acknowledgements.markdown */,
+				93D644A0E6C35547C382602D8B3A2D65 /* Pods-TwilioAuthSample-acknowledgements.plist */,
+				4EF5BB42C4A12A0358DCF2D600E51B15 /* Pods-TwilioAuthSample-dummy.m */,
+				B8218C1DC1B98679977F4A1D5E706586 /* Pods-TwilioAuthSample-frameworks.sh */,
+				BBFA93C18E86B276BDCCB73D7E53554A /* Pods-TwilioAuthSample.debug.xcconfig */,
+				F1D88D262BAF1F7593370B11369652AA /* Pods-TwilioAuthSample.release.xcconfig */,
+			);
+			name = "Pods-TwilioAuthSample";
+			path = "Target Support Files/Pods-TwilioAuthSample";
+			sourceTree = "<group>";
+		};
+		4C969491FFEABEDB9BA9318565430B6B /* TwilioAuth */ = {
+			isa = PBXGroup;
+			children = (
+				961E3B18D0CAE7E6DB2A1582A20230E1 /* Frameworks */,
+				6E96F08FC6940D2AFF6BFC6213E7D13D /* Support Files */,
+			);
+			name = TwilioAuth;
+			path = TwilioAuth;
+			sourceTree = "<group>";
+		};
+		69A12C4D744D428BEAB68856F1A928BF /* Pods-PushNotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				24016544C035D1656D1765849B95B1B9 /* Pods-PushNotificationService-acknowledgements.markdown */,
+				1B39AB3611C32BBA5F23FB7DE594653A /* Pods-PushNotificationService-acknowledgements.plist */,
+				F42962BC792BAE5ED03EC53C1C7E2F7A /* Pods-PushNotificationService-dummy.m */,
+				7BA1A5BB25716BA01D0B705BDEB113C0 /* Pods-PushNotificationService.debug.xcconfig */,
+				83D24A7DB4EB1FE124C7D99C9F368525 /* Pods-PushNotificationService.release.xcconfig */,
+			);
+			name = "Pods-PushNotificationService";
+			path = "Target Support Files/Pods-PushNotificationService";
+			sourceTree = "<group>";
+		};
+		6E96F08FC6940D2AFF6BFC6213E7D13D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52BB9412EF5A4C76DC21D9E95A136FE3 /* TwilioAuth-iOS10.0.xcconfig */,
+				10A7034AD56E5F40F8E9DE41D7287E79 /* TwilioAuth-iOS8.1.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TwilioAuth-iOS10.0";
+			sourceTree = "<group>";
+		};
+		7E43224EB45F5ECD0E34305C8AEA2332 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69A12C4D744D428BEAB68856F1A928BF /* Pods-PushNotificationService */,
+				2BF497BF4C15254E9E868133D15F8806 /* Pods-TwilioAuthSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		961E3B18D0CAE7E6DB2A1582A20230E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA99937E612E2946AC3A527D3E61DDD7 /* TwilioAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B65FA457D44B99407FF108E92445A741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96080663FF665AEB0BD06CDE0992AF41 /* libPods-PushNotificationService.a */,
+				AD5AF30BF9B94D25B8CFB05F534F5A98 /* libPods-TwilioAuthSample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				02E501D97A8F7343532871BCBE0F0BB3 /* Pods */,
+				B65FA457D44B99407FF108E92445A741 /* Products */,
+				7E43224EB45F5ECD0E34305C8AEA2332 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B88822F17198757EA6C861321A5A3A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD93DC5A49A0AE61759542A3A2085A7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		748C28A13D05F6967265467EA820241F /* Pods-PushNotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7AE16C8ED0903D8377E129C26D6A118 /* Build configuration list for PBXNativeTarget "Pods-PushNotificationService" */;
+			buildPhases = (
+				FD93DC5A49A0AE61759542A3A2085A7D /* Headers */,
+				97B8D642BFBE4ADE3D5DA4F37DA20525 /* Sources */,
+				2339458C4F2874A6AC1E21C8C8E78A05 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				772F000484AECC9031625AA2F7D543D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-PushNotificationService";
+			productName = "Pods-PushNotificationService";
+			productReference = 96080663FF665AEB0BD06CDE0992AF41 /* libPods-PushNotificationService.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9A096100721D06600D0592983F464DAD /* Pods-TwilioAuthSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBFBEA8C6695CF340F491B77BF80FB4 /* Build configuration list for PBXNativeTarget "Pods-TwilioAuthSample" */;
+			buildPhases = (
+				2B88822F17198757EA6C861321A5A3A8 /* Headers */,
+				B9459962D0DC081012590B2D223295AF /* Sources */,
+				F4A33DCA35CFA67A3156AD8CBD0C79AE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B46DCB1001B691FAAEFD998BD6B168 /* PBXTargetDependency */,
+			);
+			name = "Pods-TwilioAuthSample";
+			productName = "Pods-TwilioAuthSample";
+			productReference = AD5AF30BF9B94D25B8CFB05F534F5A98 /* libPods-TwilioAuthSample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B65FA457D44B99407FF108E92445A741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				748C28A13D05F6967265467EA820241F /* Pods-PushNotificationService */,
+				9A096100721D06600D0592983F464DAD /* Pods-TwilioAuthSample */,
+				D49F54D9B1478A88466484F4473F6BD3 /* TwilioAuth-iOS10.0 */,
+				9B15D4F07EEF04BA7ADF65D3E90BCC14 /* TwilioAuth-iOS8.1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97B8D642BFBE4ADE3D5DA4F37DA20525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C64FE2978C47722FA5DC62AF016542 /* Pods-PushNotificationService-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9459962D0DC081012590B2D223295AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974F0445E8F0397A35099E565FD52E72 /* Pods-TwilioAuthSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33B46DCB1001B691FAAEFD998BD6B168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TwilioAuth-iOS8.1";
+			target = 9B15D4F07EEF04BA7ADF65D3E90BCC14 /* TwilioAuth-iOS8.1 */;
+			targetProxy = F07E6D4C6E7D24BDBF3BCA053C8EF214 /* PBXContainerItemProxy */;
+		};
+		772F000484AECC9031625AA2F7D543D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TwilioAuth-iOS10.0";
+			target = D49F54D9B1478A88466484F4473F6BD3 /* TwilioAuth-iOS10.0 */;
+			targetProxy = D8415B996838126548DAEA5EE1FB72B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49163700FF61B2C8C94105AF7CD060ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D88D262BAF1F7593370B11369652AA /* Pods-TwilioAuthSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E4FE3284AF8AF145BD1E49FD60B9609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A7034AD56E5F40F8E9DE41D7287E79 /* TwilioAuth-iOS8.1.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E5AAFFA46AEE3559BB6610635719F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		917B97633BF81B3E781883DC9304EC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D24A7DB4EB1FE124C7D99C9F368525 /* Pods-PushNotificationService.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCCC07FFD14A557615F2E38C4F03F353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A7034AD56E5F40F8E9DE41D7287E79 /* TwilioAuth-iOS8.1.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E015DF5F9158E5ED19E9A57910F4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFA93C18E86B276BDCCB73D7E53554A /* Pods-TwilioAuthSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4826BCCABAE00796A1BBC82A64C885F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BB9412EF5A4C76DC21D9E95A136FE3 /* TwilioAuth-iOS10.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB049FA084B98EC4165CA9E455CEA05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA1A5BB25716BA01D0B705BDEB113C0 /* Pods-PushNotificationService.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB4D0A86EE87AC7401A84456C8335AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BB9412EF5A4C76DC21D9E95A136FE3 /* TwilioAuth-iOS10.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC3F73AE96AD2EB93D1397ECD712EBDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5AAFFA46AEE3559BB6610635719F61 /* Debug */,
+				FC3F73AE96AD2EB93D1397ECD712EBDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FBFBEA8C6695CF340F491B77BF80FB4 /* Build configuration list for PBXNativeTarget "Pods-TwilioAuthSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E015DF5F9158E5ED19E9A57910F4C4 /* Debug */,
+				49163700FF61B2C8C94105AF7CD060ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B54428A148D28B7D9EB84D61C8AEE8 /* Build configuration list for PBXAggregateTarget "TwilioAuth-iOS10.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4D0A86EE87AC7401A84456C8335AF8 /* Debug */,
+				C4826BCCABAE00796A1BBC82A64C885F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7AE16C8ED0903D8377E129C26D6A118 /* Build configuration list for PBXNativeTarget "Pods-PushNotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB049FA084B98EC4165CA9E455CEA05F /* Debug */,
+				917B97633BF81B3E781883DC9304EC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F537311FA48200F83203406DEAADC97B /* Build configuration list for PBXAggregateTarget "TwilioAuth-iOS8.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E4FE3284AF8AF145BD1E49FD60B9609 /* Debug */,
+				BCCC07FFD14A557615F2E38C4F03F353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

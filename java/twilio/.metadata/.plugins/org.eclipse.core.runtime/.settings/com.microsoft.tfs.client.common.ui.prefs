@@ -1,0 +1,6 @@
+com.microsoft.tfs.vc.checkoutLockLevel=checkout
+com.microsoft.tfs.vc.promptBeforeCheckin=never
+eclipse.preferences.version=1
+table-column-widths/CredentialsTable\#Composite\#Preferences/password=204
+table-column-widths/CredentialsTable\#Composite\#Preferences/serverURI=104
+table-column-widths/CredentialsTable\#Composite\#Preferences/username=104

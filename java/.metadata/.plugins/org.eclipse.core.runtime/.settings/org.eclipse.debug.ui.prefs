@@ -7,4 +7,6 @@ org.eclipse.debug.ui.MemoryHistoryUnknownColor=114,119,129
 org.eclipse.debug.ui.PREF_CHANGED_VALUE_BACKGROUND=255,255,0
 org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
 org.eclipse.debug.ui.changedDebugElement=255,0,0
+org.eclipse.debug.ui.consoleBackground=245,245,245
+overriddenByCSS=,org.eclipse.debug.ui.consoleBackground,
 preferredTargets=default\:default|

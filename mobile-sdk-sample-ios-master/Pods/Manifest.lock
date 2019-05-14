@@ -1,0 +1,16 @@
+PODS:
+  - TwilioAuth (1.2.5)
+
+DEPENDENCIES:
+  - TwilioAuth
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TwilioAuth
+
+SPEC CHECKSUMS:
+  TwilioAuth: 5074f3fae9144910682ab06977875c5aaa33f37d
+
+PODFILE CHECKSUM: c206cd854feb9b0ded3b65f4ed6389e8f408adbe
+
+COCOAPODS: 1.6.1

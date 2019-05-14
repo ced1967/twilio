@@ -1,0 +1,9 @@
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+eclipse.preferences.version=1
+hyperlinkColor=0,105,217
+javaScriptOccurrenceIndicationColor=212,212,212
+overviewRuler_migration=migrated_3.1
+redhatTextOccurrenceIndicationColor=212,212,212
+tabWidth=2
