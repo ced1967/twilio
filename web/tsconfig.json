@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./js/",
+        "watch": true,
+        "sourceMap": true,
+        "rootDir": "./ts/"
+    },
+    "filesGlob": [
+        "./ts/*.ts",
+        "!src/ignore-me.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    },
+    "files": [
+        "./ts/Chat.ts",
+    ]
+}
