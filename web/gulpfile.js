@@ -19,8 +19,8 @@ gulp.task('tsc', function(done) {
 });
 
 // Default Task
-//gulp.task('default', ['tsc']);
+gulp.task('default', ['tsc']);
 //var build = gulp.series('tsc');
 //gulp.task('default',build);
-gulp.task("default", gulp.parallel("tsc"));
+//gulp.task("default", gulp.parallel("tsc"));
 

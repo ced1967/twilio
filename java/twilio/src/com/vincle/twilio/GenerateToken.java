@@ -14,14 +14,17 @@ public class GenerateToken {
 
     String serviceSid = "IS5aecee916bdc45558d90d3cdda2061a3";
     String identity = "ced1967@yahoo.com";
+    
+    identity = "ced1967@hotmail.com";		//
 
     ChatGrant grant = new ChatGrant();
     grant.setServiceSid(serviceSid);
 
+    int ttl = 3600 * 24;   // in seconds 
     AccessToken token = new AccessToken.Builder(twilioAccountSid, twilioApiKey, twilioApiSecret)
-        .identity(identity).grant(grant).build();
+        .identity(identity).grant(grant).ttl(ttl).build();
 
     System.out.println(token.toJwt());
-    System.out.println("*** WARNING: valid only 1 hour");
+    System.out.println("*** WARNING: valid only "+ttl+" seconds");
   }
 }

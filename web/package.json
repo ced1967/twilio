@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "twilio": "^3.30.3"
+    "twilio": "^3.30.3",
+    "twilio-client": "^1.7.3"
   }
 }

@@ -1,8 +1,0 @@
-package com.vincle.twilio;
-
-import com.twilio.jwt.accesstoken.AccessToken;
-import com.twilio.jwt.accesstoken.ChatGrant;
-
-public class GenerateToken {
-
-}

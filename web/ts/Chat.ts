@@ -8,11 +8,12 @@ module Vfs {
 		twilioNumber = 'your-twilio-number';
 		accountSid = 'SK93813e8bf645872bac5b7614cdc061c1';
 		authToken = 'something-something';
-		token = "eyJjdHkiOiJ0d2lsaW8tZnBhO3Y9MSIsInR5cCI6IkpXVCIsImFsZyI6IkhTMjU2In0.eyJpc3MiOiJTS2MzMjRkY2U3YzFmMzQ4MjFkNjgwOGRmYjA3NGUwMzI4IiwiZXhwIjoxNTU3ODY3MzI3LCJncmFudHMiOnsiaWRlbnRpdHkiOiJjZWQxOTY3QHlhaG9vLmNvbSIsImNoYXQiOnsic2VydmljZV9zaWQiOiJJUzVhZWNlZTkxNmJkYzQ1NTU4ZDkwZDNjZGRhMjA2MWEzIiwiZGVwbG95bWVudF9yb2xlX3NpZCI6bnVsbCwiZW5kcG9pbnRfaWQiOm51bGwsInB1c2hfY3JlZGVudGlhbF9zaWQiOm51bGx9fSwianRpIjoiU0tjMzI0ZGNlN2MxZjM0ODIxZDY4MDhkZmIwNzRlMDMyOC0xNTU3ODYzNjgwIiwic3ViIjoiQUMwNDgzZTUxZjNiMWQyYjc1MjIwYmRhYmFlNjY0YTYxZSJ9.Rt7-1THf5oMVtqpBZTxinFABVIwMsXvfT5iT6K8dZUY";
+
+		//The token is valid only for a limited amount of time (see java program that generates the token)
+		token = "eyJjdHkiOiJ0d2lsaW8tZnBhO3Y9MSIsInR5cCI6IkpXVCIsImFsZyI6IkhTMjU2In0.eyJpc3MiOiJTS2MzMjRkY2U3YzFmMzQ4MjFkNjgwOGRmYjA3NGUwMzI4IiwiZXhwIjoxNTU5NjMwMjczLCJncmFudHMiOnsiaWRlbnRpdHkiOiJjZWQxOTY3QHlhaG9vLmNvbSIsImNoYXQiOnsic2VydmljZV9zaWQiOiJJUzVhZWNlZTkxNmJkYzQ1NTU4ZDkwZDNjZGRhMjA2MWEzIiwiZGVwbG95bWVudF9yb2xlX3NpZCI6bnVsbCwiZW5kcG9pbnRfaWQiOm51bGwsInB1c2hfY3JlZGVudGlhbF9zaWQiOm51bGx9fSwianRpIjoiU0tjMzI0ZGNlN2MxZjM0ODIxZDY4MDhkZmIwNzRlMDMyOC0xNTU5NTQzOTM2Iiwic3ViIjoiQUMwNDgzZTUxZjNiMWQyYjc1MjIwYmRhYmFlNjY0YTYxZSJ9.TXx8Cjhk89dmNJyOVbdUc-zr5DTptL8NZouvTiUrF6U";
 		client = null;
 
 		constructor() {
-
 		}
 
 		public sendMessage(msg) {
@@ -28,15 +29,20 @@ module Vfs {
 							if(channelDescriptor.friendlyName != null) {
 								console.log('Public Channel: ' + channelDescriptor.friendlyName);
 								channelDescriptor.getChannel().then(function(chn) {
-									//debugger
-									chn.join().then(function(channel) {
-										console.log('Joined channel');
-										debugger
-										chn.sendMessage("Hello").then((whatever) => {
-											debugger
+									if(chn.state.status !== "joined") {
+										chn.join().then(function(channel) {
+											console.log('Joined channel');
+											chn.sendMessage("Hello").then((whatever) => {
+												console.log(whatever);
+											})
+										});	
+									}
+									else {
+										chn.sendMessage("Hello3").then((whatever) => {
 											console.log(whatever);
 										})
-									});
+
+									}
 								});
 							}
 						}
